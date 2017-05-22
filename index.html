@@ -3,6 +3,9 @@
   <head>
 
     <link rel="StyleSheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="calculadora.js">
+
+    </script>
 
 
     <meta charset="utf-8">
@@ -10,9 +13,19 @@
   </head>
   <body>
 
-    Hello World!
+    Calculadora
+    <p></p>
 
-    <hr>
-    <p> Cambio Numero 1</p>
+    <input type="text" id= "n1">
+    <input type="text" id= "n2">
+    <p></p>
+    <button type="button" name="button" onclick="suma()">Suma</button>
+    <button type="button" name="button" onclick="resta()">Resta</button>
+    <p></p>
+    <button type="button" name="button" onclick="multiplicacion()">Multiplicacion</button>
+    <button type="button" name="button" onclick="division()">Division</button>
+    <p></p>
+    <label id="resultado"></label>
+
   </body>
 </html>
